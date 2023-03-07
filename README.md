@@ -3,11 +3,18 @@
 [![Linkedin](https://img.shields.io/badge/in-Nadi%20Duno-blue)](https://www.linkedin.com/in/nadiduno/)
 <br />
 <br />
-# DevPost
+# Post
 
-É uma rede social para a comunidade de desenvolvedores (Developer). Onde os usuários podem fazer postagem e outros podem comentar essas postagem.
+Portfólio: Apresentando meus trabalhos com as principais tecnologias do mercado(React | TypeScript | TailwindCSS) e o mais importante algumas experiências compartilhando com a comunidade meus aprendizados.
 
-Estou utilizando algumas features de ES6 (ECMAScript), implementação de escopos no CSS com módulos, e sobretudo componentes e propriedades, os quais são as bases fundamentais da programação reactiva.
+<div>
+  <img 
+    alt="Languages React | TypeScript | TailwindCSS"
+    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd3.png" 
+    width="70%"
+  >
+  <br />
+</div>
 
 <br />
 <br />
@@ -15,8 +22,8 @@ Estou utilizando algumas features de ES6 (ECMAScript), implementação de escopo
 ## Web
 <div>
   <img 
-    alt="Projecto do Feed - Redes Sociais"
-    src="https://github.com/nadiduno/test-react/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd.png" 
+    alt="Portfólio de Nadi Duno"
+    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd.png" 
     width="100%"
   >
   <br />
@@ -25,8 +32,8 @@ Estou utilizando algumas features de ES6 (ECMAScript), implementação de escopo
 ## Mobile
 <div>
   <img 
-    alt="Projecto do Feed - Redes Sociais"
-    src="https://github.com/nadiduno/test-react/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd2.png" 
+    alt="Portfólio de Nadi Duno - Dispositivo Mobile"
+    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd2.png" 
     width="20%"
   >
   <br />
@@ -47,7 +54,10 @@ $ npm i
 # Run the developer
 $ npm run dev
 ```
-By DevRel <💜 /> [Nadi Duno](https://www.rocketseat.com.br/) © 2023
+By DevRel <?? /> [Nadi Duno](https://www.linkedin.com/in/nadiduno/) © 2022
 <br />
 <br />
-Deploy da aplicação 🚀 [Page](https://post-nadiduno.vercel.app/) 
+Este é meu ?? [Diario de estudo](https://devrelnadiduno.blogspot.com/) 
+<br />
+<br />
+[Deploy da aplicação](https://portfolio-nadi.vercel.app/) 
