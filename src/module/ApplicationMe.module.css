@@ -1,9 +1,9 @@
-.post{
+.appMe{
   background: var(--gray-800);
   border-radius: 8px;
   padding: 2.5rem;
 }
-.post + .post{
+.appMe + .appMe{
   margin-top:2rem; 
 }
 .content{
