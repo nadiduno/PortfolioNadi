@@ -8,11 +8,11 @@
 Portfólio: Apresentando meus trabalhos com as principais tecnologias do mercado(React | TypeScript | TailwindCSS) e o mais importante algumas experiências compartilhando com a comunidade meus aprendizados.
 
 <div>
-  <img 
+  <!-- <img 
     alt="Languages React | TypeScript | TailwindCSS"
     src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd3.png" 
     width="70%"
-  >
+  > -->
   <br />
 </div>
 
@@ -21,11 +21,11 @@ Portfólio: Apresentando meus trabalhos com as principais tecnologias do mercado
 
 ## Web
 <div>
-  <img 
+  <!-- <img 
     alt="Portfólio de Nadi Duno"
     src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd.png" 
     width="100%"
-  >
+  > -->
   <br />
 </div>
 
