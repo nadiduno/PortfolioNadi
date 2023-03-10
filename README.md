@@ -31,11 +31,11 @@ Portfólio: Apresentando meus trabalhos com as principais tecnologias do mercado
 
 ## Mobile
 <div>
-  <img 
+  <!-- <img 
     alt="Portfólio de Nadi Duno - Dispositivo Mobile"
     src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd2.png" 
     width="20%"
-  >
+  > -->
   <br />
   <br />
 </div>
