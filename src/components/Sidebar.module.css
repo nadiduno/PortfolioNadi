@@ -1,0 +1,23 @@
+.sidebar{
+  background:var(--gray-800);
+  border-radius:8px;
+  overflow:hidden;
+}
+.cover{
+  width:60%;
+}
+.wrapper{
+  display:grid; 
+  grid-template-columns: 1fr 3fr 1fr;
+
+}
+  
+
+@media(max-width: 768px){
+  html{
+    font-size:87.5%; 
+  }
+  .wrapper{
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,9 +1,9 @@
 import { format, formatDistanceToNow } from 'date-fns'
 import ptBR from 'date-fns/locale/pt-BR'
-import { FormEvent, ChangeEvent, InvalidEvent, useState } from 'react'
-import styles from './module/ApplicationMe.module.css'
+import styles from './ApplicationMe.module.css'
 
 interface UrlApp {
+  visual: string
   deploy: string
   github: string
 }
@@ -15,7 +15,7 @@ export interface AppMeType {
   publishedAt: Date
 }
 interface AppProps {
-  appme : AppMeType
+  appme: AppMeType
 }
 export function ApplicationMe({ appme }: AppProps) {
   const publishedDateFormat = format(
@@ -29,37 +29,14 @@ export function ApplicationMe({ appme }: AppProps) {
     locale: ptBR,
     addSuffix: true,
   })
-  const [comments, setComments] = useState(['Muito bom, parabéns!!! 👏'])
-  const [newCommentText, setNewCommentText] = useState('')
-  const isNewCommentEmpty = newCommentText.length === 0
-  function handleCreateNewComment(event: FormEvent) {
-    event.preventDefault()
-    setComments([...comments, newCommentText])
-    setNewCommentText('')
-  }
-  function handleNewCommentChange(event: ChangeEvent<HTMLTextAreaElement>) {
-    event.target.setCustomValidity('')
-    setNewCommentText(event.target.value)
-  }
-  function handleNewCommnentInvalid(event: InvalidEvent<HTMLTextAreaElement>) {
-    event.target.setCustomValidity('Esse campo é obrigatorio!')
-  }
-  function deleteComment(commentToDelete: string) {
-    const commentWhithOutDeleteOne = comments.filter((comment) => {
-      return comment !== commentToDelete
-    })
-    setComments(commentWhithOutDeleteOne)
-  }
+
   return (
     <article className={styles.appMe}>
       <header>
-        <div className={styles.author}>
-          //Imagen do App 
-          <div className={styles.authorInfo}>
-            <strong>{appme.title}</strong>
-            <span>{appme.about}</span>
-          </div>
-        </div>
+        <img src={appme.urlApp.visual} alt=" " />
+        <span>{appme.urlApp.deploy}</span>
+        <strong>{appme.title}</strong>
+        <span>{appme.about}</span>
         <time
           title={publishedDateFormat}
           dateTime={appme.publishedAt.toISOString()}
@@ -68,8 +45,8 @@ export function ApplicationMe({ appme }: AppProps) {
         </time>
       </header>
       <footer>
-      <span>{appme.urlApp.deploy}</span>
-      <span>{appme.urlApp.deploy}</span>
+        <span>{appme.urlApp.deploy}</span>
+        <span>{appme.urlApp.github}</span>
       </footer>
     </article>
   )

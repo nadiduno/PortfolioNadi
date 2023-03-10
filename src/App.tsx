@@ -1,7 +1,7 @@
 import { Header } from './components/Header'
 import { ApplicationMe, AppMeType } from './components/ApplicationMe'
 import { Sidebar } from './components/Sidebar'
-import styles from './module/App.module.css'
+import styles from './App.module.css'
 import './global.css'
 
 const appsme: AppMeType[] = [
@@ -10,20 +10,11 @@ const appsme: AppMeType[] = [
     title: 'DevPost',
     about: 'Postagem na rede social',
     urlApp: {
+      visual: 'https://github.com/nadiduno/test-react/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd.png?raw=true',
       deploy: 'http://github.com/nadiduno.png',
       github: 'http://github.com/nadiduno.png',
     },
-    publishedAt: new Date('2023-02-26 13:34:00'),
-  },
-  {
-    id: 2,
-    title: 'DevPost',
-    about: 'Postagem na rede social',
-    urlApp: {
-      deploy: 'http://github.com/nadiduno.png',
-      github: 'http://github.com/nadiduno.png',
-    },
-    publishedAt: new Date('2023-02-26 13:34:00'),
+    publishedAt: new Date ('2023-02-26 13:34:00'),
   },
 ]
 export function App() {

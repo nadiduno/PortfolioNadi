@@ -1,10 +1,11 @@
-import styles from './module/Header.module.css'
-import {  AppWindow, Database, Handshake, Heart, UsersThree } from 'phosphor-react'
+import styles from './Header.module.css'
+// import {  AppWindow, Database, Handshake, Heart, UsersThree } from 'phosphor-react'
 
 export function Header() {
   return (
     <header className={styles.header}>
-      <a href="#">
+      Nadi Duno
+      {/* <a href="#">
         <AppWindow size={28} />
         Aplicativos
       </a>
@@ -23,7 +24,7 @@ export function Header() {
       <a href="#">
         <Heart size={28} />
         Voluntaria
-      </a>
+      </a> */}
     </header>
   )
 }
