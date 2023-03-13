@@ -33,12 +33,11 @@ export function ApplicationMe({ appme }: AppProps) {
   return (
     <article className={styles.appMe}>
       <img
-        className={styles.cover}
         src={appme.urlApp.photo}
         alt="Imagem de a aplicativo DevPost, o DevPost es um aplicativo para que dev possam agregar post e outros possam deixar comentarios e curtir os postagem"
       />
       <header className={styles.applications}>
-        <span>{appme.title}</span>
+        <strong>{appme.title}</strong>
         <span>{appme.about}</span>
         <time
           title={publishedDateFormat}
@@ -47,7 +46,7 @@ export function ApplicationMe({ appme }: AppProps) {
           {publishedDateRelativeToNow}
         </time>
       </header>
-      <footer>
+      <footer className={styles.urlapplications}>
         <a href={appme.urlApp.deploy} target="_blank" rel="noreferrer">
           Ver Aplicação
         </a>

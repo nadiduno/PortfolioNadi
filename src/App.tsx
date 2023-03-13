@@ -1,6 +1,6 @@
 import { Header } from './components/Header'
 import { ApplicationMe, AppMeType } from './components/ApplicationMe'
-import { Sidebar } from './components/Sidebar'
+// import { Sidebar } from './components/Sidebar'
 import styles from './App.module.css'
 import './global.css'
 
@@ -8,44 +8,44 @@ const appsme: AppMeType[] = [
   {
     id: 1,
     title: 'DevPost',
-    about: 'Postagem na rede social',
+    about: 'Uma aplicação para criar postagem e comentarios',
     urlApp: {
-      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/nadiCode.png?raw=true',
-      deploy: 'http://github.com/nadiduno',
-      github: 'http://github.com/nadiduno',
+      photo: 'https://github.com/nadiduno/post/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd.png?raw=true',
+      deploy: 'https://post-nadiduno.vercel.app/',
+      github: 'https://github.com/nadiduno/post',
     },
     publishedAt: new Date('2023-02-26 13:34:00'),
   },
   {
     id: 2,
-    title: 'DevPost',
-    about: 'Postagem na rede social',
+    title: 'Gallery Img',
+    about: 'Consumindo a API de Unsplash',
     urlApp: {
-      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/nadiCode.png?raw=true',
-      deploy: 'http://github.com/nadiduno',
-      github: 'http://github.com/nadiduno',
+      photo: 'https://github.com/nadiduno/post/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd.png?raw=true',
+      deploy: 'https://gallery-unsplash-nadiduno.vercel.app/',
+      github: 'https://github.com/nadiduno/GalleryUnsplash',
     },
     publishedAt: new Date('2023-02-26 13:34:00'),
   },
   {
     id: 3,
-    title: 'DevPost',
-    about: 'Postagem na rede social',
+    title: 'E-Commerce',
+    about: 'Venda de canecas e camisetas',
     urlApp: {
-      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/nadiCode.png?raw=true',
-      deploy: 'http://github.com/nadiduno',
-      github: 'http://github.com/nadiduno',
+      photo: 'https://github.com/nadiduno/post/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd.png?raw=true',
+      deploy: 'https://ecommercemarmitech.vercel.app/',
+      github: 'https://github.com/nadiduno/ecommercemarmitech',
     },
     publishedAt: new Date('2023-02-26 13:34:00'),
   },
   {
     id: 4,
-    title: 'DevPost',
-    about: 'Postagem na rede social',
+    title: 'Finance',
+    about: 'Registro de finanças pessoal',
     urlApp: {
-      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/nadiCode.png?raw=true',
-      deploy: 'http://github.com/nadiduno',
-      github: 'http://github.com/nadiduno',
+      photo: 'https://github.com/nadiduno/post/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd.png?raw=true',
+      deploy: 'https://financeperson.vercel.app/',
+      github: 'https://github.com/nadiduno/financeperson',
     },
     publishedAt: new Date('2023-02-26 13:34:00'),
   },
@@ -55,7 +55,7 @@ export function App() {
     <div>
       <Header />
       <div className={styles.layout}>
-        <Sidebar />
+        {/* <Sidebar /> */}
         <main className={styles.wrapper}>
           {appsme.map((appme) => {
             return <ApplicationMe key={appme.id} appme={appme} />
