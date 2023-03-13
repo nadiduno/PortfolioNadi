@@ -1,14 +1,24 @@
-.wrapper{
+.layout{
   max-width: 70rem;
   margin: 2rem auto;
   padding: 0 1rem; 
-  display:grid;
-  grid-template-columns: 1fr;
   gap: 2rem;
   align-items: flex-start;
+}
+.wrapper{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-between;
+}
+.cover{
+  width:5%;
 }
 @media(max-width: 768px){
   html{
     font-size:87.5%; 
+  }
+  .wrapper{
+    display:grid;
+    grid-template-columns: 1fr;
   }
 }

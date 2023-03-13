@@ -2,7 +2,43 @@
   background: var(--gray-800);
   border-radius: 8px;
   padding: 2.5rem;
+  /* display: flex;
+  flex-direction: row; */
+  border-top: 1px solid green;
 }
-.appMe + .appMe{
-  margin-top:2rem; 
+.applications{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+ }
+.applications span{
+  display: block;
+  font-size: 0.875rem;
+  color: green;
+  line-height: 1.6;
+}
+.appMe img{
+  display: block;
+  height: 8rem;
+}
+.urlapplications{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid violet;
+ }
+
+.urlapplications a{
+  font-weight:bold;
+  color: var(--green-500);
+  text-decoration: none;
+}
+.urlapplications a:hover{
+  color: var(--green-300);
+}
+@media(max-width: 768px){
+  html{
+    font-size:87.5%; 
+  }
+   
 }
