@@ -21,14 +21,36 @@ const appsme: AppMeType[] = [
     title: 'Atacadao das Bebidas',
     about: 'Dashboard de Vendas',
     urlApp: {
-      photo: 'https://app.powerbi.com/groups/me/reports/dd7fe305-aacd-40f8-88aa-598068c439c7/ReportSection',
-      deploy: 'https://post-nadiduno.vercel.app/',
+      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App6.jpg?raw=true',
+      deploy: 'https://app.powerbi.com/groups/me/reports/dd7fe305-aacd-40f8-88aa-598068c439c7/ReportSection',
       github: 'https://github.com/nadiduno/post',
     },
     publishedAt: new Date('2023-05-1 13:34:00'),
   },
   {
     id: 3,
+    title: 'Vila Móveis',
+    about: 'Dashboard de Vendas',
+    urlApp: {
+      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App7.jpg?raw=true',
+      deploy: 'https://app.powerbi.com/view?r=eyJrIjoiODE4YTEyOTAtZjY1YS00Njc0LWEyM2YtNzBhZTQxZjcxMDNkIiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
+      // github: 'https://github.com/nadiduno/post',
+    },
+    publishedAt: new Date('2023-05-1 13:34:00'),
+  },
+  {
+    id: 4,
+    title: 'Digital Bank',
+    about: 'Dashboard de Satisfação',
+    urlApp: {
+      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App8.jpg?raw=true',
+      deploy: 'https://app.powerbi.com/groups/me/reports/dd7fe305-aacd-40f8-88aa-598068c439c7/ReportSection',
+      github: 'https://github.com/nadiduno/post',
+    },
+    publishedAt: new Date('2023-05-1 13:34:00'),
+  },
+  {
+    id: 5,
     title: 'DevPost',
     about: 'Criar postagem e comentarios',
     urlApp: {
@@ -39,7 +61,7 @@ const appsme: AppMeType[] = [
     publishedAt: new Date('2023-02-27 13:34:00'),
   },
   {
-    id: 4,
+    id: 6,
     title: 'Gallery Img',
     about: 'Consumindo a API de Unsplash',
     urlApp: {
@@ -50,7 +72,7 @@ const appsme: AppMeType[] = [
     publishedAt: new Date('2022-12-26 13:34:00'),
   },
   {
-    id: 5,
+    id: 7,
     title: 'E-Commerce',
     about: 'Venda de canecas e camisetas',
     urlApp: {
@@ -61,7 +83,7 @@ const appsme: AppMeType[] = [
     publishedAt: new Date('2022-08-31 13:34:00'),
   },
   {
-    id: 6,
+    id: 8,
     title: 'Finance',
     about: 'Registro de finanças pessoal',
     urlApp: {
