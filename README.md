@@ -29,17 +29,6 @@ Portfólio: Apresentando meus trabalhos com as principais tecnologias do mercado
   <br />
 </div>
 
-## Mobile
-<div>
-  <!-- <img 
-    alt="Portfólio de Nadi Duno - Dispositivo Mobile"
-    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd2.png" 
-    width="20%"
-  > -->
-  <br />
-  <br />
-</div>
-
 ![Languages](https://img.shields.io/badge/%3C%2F%3E-languages-lightgrey)<br/>
 [ReactJS](https://reactjs.org/) | [Vite](https://vitejs.dev/) | [Node.js](https://nodejs.org/en/download/) | [NPM](https://www.npmjs.com/)
 
@@ -54,10 +43,10 @@ $ npm i
 # Run the developer
 $ npm run dev
 ```
-By DevRel <?? /> [Nadi Duno](https://www.linkedin.com/in/nadiduno/) © 2022
+By DevRel <::heart:: /> [Nadi Duno](https://www.linkedin.com/in/nadiduno/) © 2023
 <br />
 <br />
-Este é meu ?? [Diario de estudo](https://devrelnadiduno.blogspot.com/) 
+Este é meu [Diario de estudo](https://devrelnadiduno.blogspot.com/) 
 <br />
 <br />
 [Deploy da aplicação](https://portfolio-nadi.vercel.app/) 
