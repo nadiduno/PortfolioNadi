@@ -1,0 +1,17 @@
+.titles{
+  background:var(--violet-500);
+  overflow:hidden;
+  margin:0;
+  margin-bottom:1rem;
+  padding: 0.5rem;
+  width: 70%;
+}
+
+@media(max-width: 768px){
+  html{
+    font-size:87.5%; 
+  }
+  .cover{
+    width:20%;
+  }
+}

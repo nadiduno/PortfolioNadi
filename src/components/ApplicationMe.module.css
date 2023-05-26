@@ -4,13 +4,18 @@
   padding: 2.5rem;
   border-top: 1px solid green;
   gap:2rem;
+  margin-left:1rem;
+  margin-bottom:2rem;
+
 }
+
+
 .applications{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin: 2rem;
+  margin: 1rem;
  }
 .applications span{
   display: block;
@@ -23,6 +28,10 @@
   border-radius: 8px;
   box-sizing:border-box;
   border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35rem;
 }
 .urlapplications{
   display: flex;

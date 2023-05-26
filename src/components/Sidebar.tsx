@@ -5,9 +5,9 @@ export function Sidebar() {
     <aside className={styles.sidebar}>
       <div>
         <div>
-          <span>Eu sou</span>
-          <span>Nadi Duno</span>
-          <span>a web developer</span>
+          <span className={styles.Name1}>Eu sou</span>
+          <span className={styles.Name2}>Nadi Duno</span>
+          <span className={styles.Name1}>a web developer</span>
         </div>
         <img
           className={styles.cover}

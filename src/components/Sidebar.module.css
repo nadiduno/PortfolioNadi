@@ -1,17 +1,26 @@
 .sidebar{
-  background:var(--gray-800);
   border-radius:8px;
   overflow:hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .cover{
-  width:50%;
+  width:20%;
 }
-
+.Name1{
+  color: var(--violet-500);
+}
+.Name2{
+  color:var(--white);
+  padding: 1rem;
+  font-size: 4rem;
+}
 @media(max-width: 768px){
   html{
     font-size:87.5%; 
   }
   .cover{
-    width:20%;
+    width:8%;
   }
 }
