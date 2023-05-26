@@ -3,29 +3,22 @@
 [![Linkedin](https://img.shields.io/badge/in-Nadi%20Duno-blue)](https://www.linkedin.com/in/nadiduno/)
 <br />
 <br />
-# Post
+#Portfólio 
 
-Portfólio: Apresentando meus trabalhos com as principais tecnologias do mercado(React | TypeScript | TailwindCSS) e o mais importante algumas experiências compartilhando com a comunidade meus aprendizados.
-
-<div>
-  <!-- <img 
-    alt="Languages React | TypeScript | TailwindCSS"
-    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd3.png" 
-    width="70%"
-  > -->
-  <br />
-</div>
+Apresentando meus trabalhos com as principais tecnologias do mercado: 
+- Dados: (SQL Python | PowerBi)
+- Desenvolvimento web: (React | TypeScript | TailwindCSS) 
 
 <br />
 <br />
 
 ## Web
 <div>
-  <!-- <img 
+  <img 
     alt="Portfólio de Nadi Duno"
-    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDunoDesenvolvedorFrontEnd.png" 
+    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDuno.png" 
     width="100%"
-  > -->
+  >
   <br />
 </div>
 
@@ -49,4 +42,4 @@ By DevRel <::heart:: /> [Nadi Duno](https://www.linkedin.com/in/nadiduno/) © 20
 Este é meu [Diario de estudo](https://devrelnadiduno.blogspot.com/) 
 <br />
 <br />
-[Deploy da aplicação](https://portfolio-nadi.vercel.app/) 
+[Link do Potfólio](https://portfolio-nadi.vercel.app/) 
