@@ -7,6 +7,28 @@ import './global.css'
 const appsme: AppMeType[] = [
   {
     id: 1,
+    title: 'Shoppe',
+    about: 'Dashboard de Vendas',
+    urlApp: {
+      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App5.png?raw=true',
+      deploy: 'https://app.powerbi.com/view?r=eyJrIjoiOWViNzY0NTctNzhkMC00MzRlLWE1ZjEtMmNjN2IyZWY4ZWNhIiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
+      github: 'https://github.com/nadiduno/post',
+    },
+    publishedAt: new Date('2023-05-22 23:00:00'),
+  },
+  {
+    id: 2,
+    title: 'Atacadao das Bebidas',
+    about: 'Dashboard de Vendas',
+    urlApp: {
+      photo: 'https://app.powerbi.com/groups/me/reports/dd7fe305-aacd-40f8-88aa-598068c439c7/ReportSection',
+      deploy: 'https://post-nadiduno.vercel.app/',
+      github: 'https://github.com/nadiduno/post',
+    },
+    publishedAt: new Date('2023-05-1 13:34:00'),
+  },
+  {
+    id: 3,
     title: 'DevPost',
     about: 'Criar postagem e comentarios',
     urlApp: {
@@ -17,7 +39,7 @@ const appsme: AppMeType[] = [
     publishedAt: new Date('2023-02-27 13:34:00'),
   },
   {
-    id: 2,
+    id: 4,
     title: 'Gallery Img',
     about: 'Consumindo a API de Unsplash',
     urlApp: {
@@ -28,7 +50,7 @@ const appsme: AppMeType[] = [
     publishedAt: new Date('2022-12-26 13:34:00'),
   },
   {
-    id: 3,
+    id: 5,
     title: 'E-Commerce',
     about: 'Venda de canecas e camisetas',
     urlApp: {
@@ -39,7 +61,7 @@ const appsme: AppMeType[] = [
     publishedAt: new Date('2022-08-31 13:34:00'),
   },
   {
-    id: 4,
+    id: 6,
     title: 'Finance',
     about: 'Registro de finanças pessoal',
     urlApp: {
