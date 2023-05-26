@@ -1,6 +1,6 @@
 .layout{
-  max-width: 90rem;
-  /* margin: 2rem; */
+  max-width: 90%;
+  margin: 0.5rem;
   padding: 1rem; 
   gap: 2rem;
   align-items: flex-start;

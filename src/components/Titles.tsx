@@ -4,7 +4,7 @@ export function Titles() {
   return (
     <aside className={styles.titles}>
       <div>
-        <span>Aplicações</span>
+        <span>Confira meu trabalho</span>
       </div>
     </aside>
   )

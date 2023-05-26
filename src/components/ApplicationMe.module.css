@@ -2,11 +2,10 @@
   background: var(--gray-800);
   border-radius: 8px;
   padding: 2.5rem;
-  border-top: 1px solid green;
+  border-top: 1px solid var(--green-700);
   gap:2rem;
   margin-left:1rem;
   margin-bottom:2rem;
-
 }
 
 
@@ -65,5 +64,5 @@
   html{
     font-size:87.5%; 
   }
-   
+  
 }
