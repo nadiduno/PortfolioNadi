@@ -12,12 +12,11 @@ Apresentando meus trabalhos com as principais tecnologias do mercado:
 <br />
 <br />
 
-## Web
 <div>
   <img 
     alt="Portfólio de Nadi Duno"
-    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDuno.png" 
-    width="100%"
+    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDuno%20.png" 
+    width="70%"
   >
   <br />
 </div>
