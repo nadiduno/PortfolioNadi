@@ -8,7 +8,7 @@ const appsme: AppMeType[] = [
     title: 'Front-end',
     about: 'Front-end',
     urlApp: {
-      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App5.png?raw=true',
+      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/Frontend.png?raw=true',
       deploy: '/frontend',
       github: '#',
     },
@@ -19,7 +19,7 @@ const appsme: AppMeType[] = [
     title: 'Dados',
     about: 'Dados',
     urlApp: {
-      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App6.jpg?raw=true',
+      photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/Dados.png?raw=true',
       deploy: '/data',
       github: '#',
     },
