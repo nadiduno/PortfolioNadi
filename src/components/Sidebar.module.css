@@ -1,57 +1,99 @@
-.sidebar{
-  overflow:hidden;
+.sidebar {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  justify-items: center;
 }
-.name1{
+
+.hand {
+  position: relative;
+  top: 1.5rem;
+  left: -1.5rem;
+  padding-right: 0.25rem;
+  transition: all ease-in-out 0.2s;
+  transform: rotate(-1deg) translateX(-1%) translateY(-1%);
+}
+
+.hand:hover {
+  transform: rotate(1deg) translateX(1%) translateY(1%);
+}
+
+
+.name1 {
   color: var(--violet-500);
 }
-.name2{
-  color:var(--white);
+
+.name2 {
+  color: var(--white);
   padding: 1rem;
-  font-size: 4rem;
+  font-size: 1.5rem;
 }
-.name3{
+
+.name3 {
   color: var(--green-700);
 }
-.wrapper{
-  display:grid;
-  grid-template-columns: repeat(2,1fr);
-  justify-content: space-between;
+
+.wrapper {
+  display: flex;
 }
-.cover{
-  width:15rem;
-  margin-top: -2rem;
+
+.cover {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin-top: 1.5rem;
 }
-.socialnetworks{
-  width: 12rem;
-  padding: 0.5rem 1rem ;
+
+.socialnetworks {
+  width: 6rem;
+  padding: 0.5rem 1rem;
   margin: 1rem;
-  font-weight:bold;
+  font-weight: bold;
   background: var(--violet-500);
-  color:var(--white);
-  text-decoration: none;
-  display:flex;
+  color: var(--white);
+  text-decoration: transparent;
+  display: flex;
   justify-content: center;
   border-radius: 4px;
   font-weight: bold;
-  cursor:pointer;
+  cursor: pointer;
   transition: background-color 0.1s;
   border: none;
-
   border-top: 1.25px solid var(--violet-500);
 }
-a:hover{
+
+.socialnetworks:first-child {
+  margin-top: 2rem;
+}
+
+a:hover {
   background: black;
   transition: background-color 0.1s;
   border-top: 1.25px solid var(--violet-500);
 }
-@media(max-width: 768px){
-  html{
-    font-size:87.5%; 
+
+@media ((min-width: 768px)) {
+  body {
+    font-size: 2rem;
   }
-  .cover{
-    width:10rem;
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hand {
+    top: 3rem;
+    left: -2rem;
+  }
+
+  .name2 {
+    font-size: 3rem;
   }
 }

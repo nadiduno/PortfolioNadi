@@ -1,0 +1,24 @@
+.layout {
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 0 0.5rem; */
+    margin-right: 3rem;
+}
+
+.wrapper {
+    /* width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem; */
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+
+
+@media(min-width: 768px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+}

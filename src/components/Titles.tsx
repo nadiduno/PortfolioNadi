@@ -5,6 +5,7 @@ export function Titles() {
     <aside className={styles.titles}>
       <div>
         <span>Confira meu trabalho</span>
+        <span>Confira meu trabalho</span>
       </div>
     </aside>
   )

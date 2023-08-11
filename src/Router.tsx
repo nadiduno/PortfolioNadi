@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
 import { DevRel } from './Pages/DevRel'
-import { Data } from './Pages/data'
 import { Frontend } from './Pages/Frontend'
 import { HomePage } from './Pages/HomePage'
+import { Data } from './Pages/Data'
 
 export function Router() {
     return (
