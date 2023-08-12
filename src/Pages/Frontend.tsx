@@ -80,11 +80,11 @@ export function Frontend() {
                 <div>
                     <Sidebar />
                 </div>
-                <main className={styles.wrapper}>
+                <div className={styles.wrapper}>
                     {appsme.map((appme) => {
                         return <ApplicationMe key={appme.id} appme={appme} />
                     })}
-                </main>
+                </div>
             </main>
         </>
     )

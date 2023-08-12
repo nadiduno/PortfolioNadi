@@ -69,11 +69,12 @@
   margin-top: 2rem;
 }
 
-a:hover {
+.socialnetworks a:hover {
   background: black;
   transition: background-color 0.1s;
   border-top: 1.25px solid var(--violet-500);
 }
+
 
 @media ((min-width: 768px)) {
   body {
