@@ -6,6 +6,28 @@ import styles from './Frontend.module.css'
 const appsme: AppMeType[] = [
     {
         id: 1,
+        title: 'Toti Lunch',
+        about: 'Cardápio Digital',
+        urlApp: {
+            photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App9.png??raw=true',
+            deploy: 'https://toti-lunch.vercel.app/',
+            github: 'https://github.com/nadiduno/totiLunchFullStack',
+        },
+        publishedAt: new Date('2023-08-10 13:34:00'),
+    },
+    {
+        id: 2,
+        title: 'Timer Pomodoro',
+        about: 'É um temporizador, usando a técnica pomodoro, um método de gerenciamento de tempo.',
+        urlApp: {
+            photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App10.png??raw=true',
+            deploy: 'https://timerpomodoro-ten.vercel.app/',
+            github: 'https://github.com/nadiduno/timerpomodoro',
+        },
+        publishedAt: new Date('2023-06-12 13:34:00'),
+    },
+    {
+        id: 3,
         title: 'DevPost',
         about: 'Criar postagem e comentarios',
         urlApp: {
@@ -16,7 +38,7 @@ const appsme: AppMeType[] = [
         publishedAt: new Date('2023-02-27 13:34:00'),
     },
     {
-        id: 2,
+        id: 4,
         title: 'Gallery Img',
         about: 'Consumindo a API de Unsplash',
         urlApp: {
@@ -27,7 +49,7 @@ const appsme: AppMeType[] = [
         publishedAt: new Date('2022-12-26 13:34:00'),
     },
     {
-        id: 3,
+        id: 5,
         title: 'E-Commerce',
         about: 'Venda de canecas e camisetas',
         urlApp: {
@@ -38,7 +60,7 @@ const appsme: AppMeType[] = [
         publishedAt: new Date('2022-08-31 13:34:00'),
     },
     {
-        id: 4,
+        id: 6,
         title: 'Finance',
         about: 'Registro de finanças pessoal',
         urlApp: {

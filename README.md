@@ -15,7 +15,7 @@ Apresentando meus trabalhos com as principais tecnologias do mercado:
 <div>
   <img 
     alt="Portfólio de Nadi Duno"
-    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ProjectNadiDuno%20.png" 
+    src="https://github.com/nadiduno/PortfolioNadi/blob/main/.github/ImgApp.png" 
     width="70%"
   >
   <br />
@@ -35,10 +35,14 @@ $ npm i
 # Run the developer
 $ npm run dev
 ```
+<br />
+
 By DevRel <::heart:: /> [Nadi Duno](https://www.linkedin.com/in/nadiduno/) © 2023
 <br />
 <br />
+
 Este é meu [Diario de estudo](https://devrelnadiduno.blogspot.com/) 
 <br />
 <br />
+
 [Link do Potfólio](https://portfolio-nadi.vercel.app/) 

@@ -1,4 +1,6 @@
 import { ApplicationMe, AppMeType } from "../components/ApplicationMe"
+import { Header } from "../components/Header"
+import { Sidebar } from "../components/Sidebar"
 import styles from './Frontend.module.css'
 
 const appsme: AppMeType[] = [
@@ -51,10 +53,16 @@ const appsme: AppMeType[] = [
 export function Data() {
     return (
         <>
-            <main className={styles.wrapper}>
-                {appsme.map((appme) => {
-                    return <ApplicationMe key={appme.id} appme={appme} />
-                })}
+            <Header />
+            <main className={styles.container}>
+                <div>
+                    <Sidebar />
+                </div>
+                <main className={styles.wrapper}>
+                    {appsme.map((appme) => {
+                        return <ApplicationMe key={appme.id} appme={appme} />
+                    })}
+                </main>
             </main>
         </>
     )
