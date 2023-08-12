@@ -31,29 +31,34 @@ export function ApplicationMe({ appme }: AppProps) {
   })
 
   return (
-    <article className={styles.appMe}>
-      <img
-        src={appme.urlApp.photo}
-        alt="Imagem de a aplicativo DevPost, o DevPost es um aplicativo para que dev possam agregar post e outros possam deixar comentarios e curtir os postagem"
-      />
-      <header className={styles.applications}>
-        <strong>{appme.title}</strong>
-        <span>{appme.about}</span>
-        <time
-          title={publishedDateFormat}
-          dateTime={appme.publishedAt.toISOString()}
-        >
-          {publishedDateRelativeToNow}
-        </time>
-      </header>
-      <footer className={styles.urlapplications}>
-        <a href={appme.urlApp.deploy} target="_blank" rel="noreferrer">
-          Ver Aplicação
-        </a>
-        <a href={appme.urlApp.github} target="_blank" rel="noreferrer">
-          Ver Código
-        </a>
-      </footer>
-    </article>
+    <div className={styles.layout}>
+      <div className={styles.boxmain}>
+        <div className={styles.box1}>
+          <img
+            src={appme.urlApp.photo}
+            alt="Imagem de a aplicativo DevPost, o DevPost es um aplicativo para que dev possam agregar post e outros possam deixar comentarios e curtir os postagem"
+          />
+        </div>
+        <div className={styles.box2}>
+          <p className={styles.text1}>{appme.title}</p>
+          <p>{appme.about}</p>
+          <p className={styles.text2}>
+            <time
+              title={publishedDateFormat}
+              dateTime={appme.publishedAt.toISOString()}
+            >
+              {publishedDateRelativeToNow}
+            </time>
+          </p>
+
+          <a href={appme.urlApp.deploy} target="_blank" rel="noreferrer">
+            Ver Aplicação
+          </a>
+          <a href={appme.urlApp.github} target="_blank" rel="noreferrer">
+            Ver Código
+          </a>
+        </div>
+      </div>
+    </div>
   )
 }

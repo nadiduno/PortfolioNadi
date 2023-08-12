@@ -1,9 +1,9 @@
 import { ApplicationMe, AppMeType } from '../components/ApplicationMe'
-import styles from './Areas.module.css'
-import logomongodb from '../assets/logomongodb.svg'
-import logopython from '../assets/logopython.svg'
+
 import logostyled from '../assets/logostyledcomponent.svg'
 import logotypescript from '../assets/logotypescript.svg'
+import logomongodb from '../assets/logomongodb.svg'
+import logopython from '../assets/logopython.svg'
 import logosql from '../assets/logosql.svg'
 import logosass from '../assets/logosass.svg'
 import logofigma from '../assets/logofigma.svg'
@@ -11,6 +11,8 @@ import logogithub from '../assets/logogithub.svg'
 import logojupyter from '../assets/logojupyter.svg'
 import logopowerbi from '../assets/logopowerbi.svg'
 import logoreact from '../assets/logoreact.svg'
+
+import styles from './Areas.module.css'
 
 let logos: string[][] = [
   [`${logopython}`, `${logosql}`, `${logomongodb}`, `${logojupyter}`, `${logopowerbi}`],
@@ -50,7 +52,7 @@ export function Areas() {
           return (
             <div className={styles.boxmain}>
               <div className={styles.box1}>
-                <img src={appme.urlApp.photo} alt="" />
+                <img src={appme.urlApp.photo} alt='' />
               </div>
               <div className={styles.box2}>
                 <p className={styles.text1}>{appme.title}</p>
@@ -60,14 +62,14 @@ export function Areas() {
                   {logos[appme.id].map((index) => {
                     return (
                       <div className={styles.logoteach}>
-                        <img key={`${appme.publishedAt}`} src={index} alt="" />
+                        <img key={`${appme.publishedAt}`} src={index} alt='' />
                       </div>)
                   })}
                 </div>
                 <a
                   href={appme.urlApp.deploy}
                   className={styles.socialnetworks}
-                  rel="noreferrer"
+                  rel='noreferrer'
                 >
                   Ver meus trabalhos
                 </a>
