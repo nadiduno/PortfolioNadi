@@ -1,5 +1,7 @@
 import styles from './Header.module.css'
 import { AppWindow, Database, House, } from 'phosphor-react'
+import { NavLink } from 'react-router-dom'
+
 export function Header() {
   return (
     <header className={styles.header}>
@@ -7,18 +9,18 @@ export function Header() {
 
       </div>
       <div>
-        <a href="/data" title='dados' >
-          <Database size={24} />
-          {/* Dados */}
-        </a>
-        <a href="/frontend" title='frontend'>
-          <AppWindow size={24} />
-          {/* Aplicativos */}
-        </a>
-        <a href="/" title='home' >
-          <House size={24} />
-          {/* Home */}
-        </a>
+        <nav>
+          <NavLink to="/data" title="dados">
+            <Database size={24} />
+          </NavLink>
+          <NavLink to="/frontend" title="dados">
+            <AppWindow size={24} />
+          </NavLink>
+          <NavLink to="/" title="dados">
+            <House size={24} />
+          </NavLink>
+        </nav>
+
         {/* <a href="#">
           <UsersThree size={24} />
           DevRel
