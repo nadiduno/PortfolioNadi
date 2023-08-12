@@ -19,7 +19,6 @@
     height: 12rem;
     overflow: hidden;
     border-radius: 8px 8px 0 0;
-    background-color: var(--white);
     border: 1px solid var(--gray-300);
     border-bottom: transparent;
 }
@@ -38,7 +37,8 @@
 .text1 {
     color: var(--violet-500);
     font-weight: bold;
-    padding-top: 1rem;
+    font-size: 1.25rem;
+
 }
 
 .text2 {
@@ -49,14 +49,12 @@
 .logoteach {
     width: 2rem;
     height: 2rem;
-    /* overflow: hidden; */
 }
 
 .logoteach img,
 .box1 img {
     width: 100%;
     height: 100%;
-    /* object-fit: cover; */
 }
 
 .socialnetworks {
@@ -82,6 +80,16 @@
 .socialnetworks a:hover {
     transition: 0.1s;
     border-top: 2rem solid var(--violet-500);
+}
+
+.link2 {
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.link2:hover {
+    transition: 0.1s;
+    color: rgba(0, 0, 0, 75);
 }
 
 .wrap {

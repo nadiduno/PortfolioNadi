@@ -53,7 +53,11 @@ export function Areas() {
           return (
             <div className={styles.boxmain}>
               <div className={styles.box1}>
-                <img src={appme.urlApp.photo} alt='' />
+                <nav>
+                  <NavLink to={appme.urlApp.deploy} title={appme.title} className={styles.link2}>
+                    <img src={appme.urlApp.photo} alt="Imagem das maõs de uma pessoa, com um tablet moderna" title={appme.title} />
+                  </NavLink>
+                </nav>
               </div>
               <div className={styles.box2}>
                 <p className={styles.text1}>{appme.title}</p>
@@ -70,7 +74,7 @@ export function Areas() {
                 </div>
 
                 <nav>
-                  <NavLink to={appme.urlApp.deploy} title="dados" className={styles.socialnetworks}>
+                  <NavLink to={appme.urlApp.deploy} title={appme.title} className={styles.socialnetworks}>
                     Ver meus trabalhos
                   </NavLink>
                 </nav>
