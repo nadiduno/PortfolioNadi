@@ -4,28 +4,39 @@ import logomongodb from '../assets/logomongodb.svg'
 import logopython from '../assets/logopython.svg'
 import logostyled from '../assets/logostyledcomponent.svg'
 import logotypescript from '../assets/logotypescript.svg'
+import logosql from '../assets/logosql.svg'
+import logosass from '../assets/logosass.svg'
+import logofigma from '../assets/logofigma.svg'
+import logogithub from '../assets/logogithub.svg'
+import logojupyter from '../assets/logojupyter.svg'
+import logopowerbi from '../assets/logopowerbi.svg'
 import logoreact from '../assets/logoreact.svg'
+
+let logos: string[][] = [
+  [`${logopython}`, `${logosql}`, `${logomongodb}`, `${logojupyter}`, `${logopowerbi}`],
+  [`${logoreact}`, `${logotypescript}`, `${logostyled}`, `${logosass}`, `${logofigma}`, `${logogithub}`,]
+]
 
 const appsme: AppMeType[] = [
   {
-    id: 1,
+    id: 0,
     title: 'Dados',
-    about: 'Análise e depuração de dados,para extrair insights que podem ajudar na tomada de decisões.',
+    about: 'Análise e depuração de dados, para extrair insights que podem ajudar na tomada de decisões.',
     urlApp: {
       photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/Dados.png?raw=true',
       deploy: '/data',
-      github: 'Ver meus trabalhos',
+      github: `${logopython}`,
     },
     publishedAt: new Date('2023-08-10 23:00:00'),
   },
   {
-    id: 2,
+    id: 1,
     title: 'Front-end',
-    about: 'Paixão por escrever códigos eficientes usáveis seguindo os critérios de acessibilidade.',
+    about: 'Paixão por escrever códigos eficientes e usáveis, seguindo os critérios de acessibilidade.',
     urlApp: {
       photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/Frontend.png?raw=true',
       deploy: '/frontend',
-      github: 'Ver meus trabalhos',
+      github: `${logoreact}`,
     },
     publishedAt: new Date('2023-08-10 23:00:00'),
   }
@@ -42,11 +53,16 @@ export function Areas() {
                 <img src={appme.urlApp.photo} alt="" />
               </div>
               <div className={styles.box2}>
-                <p>{appme.title}</p>
+                <p className={styles.text1}>{appme.title}</p>
                 <p>{appme.about}</p>
-                <p>Tecnologias</p>
-                <div className={styles.logoteach}>
-                  <img src={logoreact} alt="" />
+                <p className={styles.text2}>Tecnologias</p>
+                <div className={styles.wrap}>
+                  {logos[appme.id].map((index) => {
+                    return (
+                      <div className={styles.logoteach}>
+                        <img key={`${appme.publishedAt}`} src={index} alt="" />
+                      </div>)
+                  })}
                 </div>
                 <a
                   href={appme.urlApp.deploy}
