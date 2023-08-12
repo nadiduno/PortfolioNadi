@@ -1,4 +1,5 @@
-import { ApplicationMe, AppMeType } from '../components/ApplicationMe'
+import { NavLink } from 'react-router-dom'
+import { AppMeType } from '../components/ApplicationMe'
 
 import logostyled from '../assets/logostyledcomponent.svg'
 import logotypescript from '../assets/logotypescript.svg'
@@ -58,6 +59,7 @@ export function Areas() {
                 <p className={styles.text1}>{appme.title}</p>
                 <p>{appme.about}</p>
                 <p className={styles.text2}>Tecnologias</p>
+
                 <div className={styles.wrap}>
                   {logos[appme.id].map((index) => {
                     return (
@@ -66,15 +68,22 @@ export function Areas() {
                       </div>)
                   })}
                 </div>
-                <a
-                  href={appme.urlApp.deploy}
+
+                <nav>
+                  <NavLink to={appme.urlApp.deploy} title="dados" className={styles.socialnetworks}>
+                    Ver meus trabalhos
+                  </NavLink>
+                </nav>
+
+                {/* <a
+                  href="/data"
                   className={styles.socialnetworks}
                   rel='noreferrer'
                 >
                   Ver meus trabalhos
-                </a>
-              </div>
+                </a> */}
 
+              </div>
             </div>
           )
         })}
