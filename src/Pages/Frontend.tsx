@@ -9,7 +9,7 @@ const appsme: AppMeType[] = [
         title: 'Toti Lunch',
         about: 'Cardápio Digital',
         urlApp: {
-            photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App9.png??raw=true',
+            photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App9.png?raw=true',
             deploy: 'https://toti-lunch.vercel.app/',
             github: 'https://github.com/nadiduno/totiLunchFullStack',
         },
@@ -18,9 +18,9 @@ const appsme: AppMeType[] = [
     {
         id: 2,
         title: 'Timer Pomodoro',
-        about: 'É um temporizador, usando a técnica pomodoro, um método de gerenciamento de tempo.',
+        about: 'Temporizador.',
         urlApp: {
-            photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App10.png??raw=true',
+            photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/.github/App10.png?raw=true',
             deploy: 'https://timerpomodoro-ten.vercel.app/',
             github: 'https://github.com/nadiduno/timerpomodoro',
         },

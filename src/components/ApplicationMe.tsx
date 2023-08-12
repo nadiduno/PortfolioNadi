@@ -50,13 +50,24 @@ export function ApplicationMe({ appme }: AppProps) {
               {publishedDateRelativeToNow}
             </time>
           </p>
-
-          <a href={appme.urlApp.deploy} target="_blank" rel="noreferrer">
-            Ver Aplicação
-          </a>
-          <a href={appme.urlApp.github} target="_blank" rel="noreferrer">
-            Ver Código
-          </a>
+          <div className={styles.space}>
+            <a
+              href={appme.urlApp.deploy}
+              target="_blank"
+              rel="noreferrer"
+              className={styles.socialnetworks}
+            >
+              Ver Aplicação
+            </a>
+            <a
+              href={appme.urlApp.github}
+              target="_blank"
+              rel="noreferrer"
+              className={styles.socialnetworks}
+            >
+              Ver Código
+            </a>
+          </div>
         </div>
       </div>
     </div>
