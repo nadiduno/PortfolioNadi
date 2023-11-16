@@ -14,7 +14,7 @@ export function Sidebar() {
           <img
             className={styles.cover}
             // https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/nadiPhotoCode2.png
-            src="https://avatars.githubusercontent.com/u/6678054?v=4?raw=true"
+            src="https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/nadiPhotoCode.png?raw=true"
             alt="Foto de Nadi Duno, Nadi é uma mulher, parda de cabelo curto, a foto esta em branco e preto, com um circulo verde neon com codigos de programação"
           />
           <div>
