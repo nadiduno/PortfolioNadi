@@ -14,8 +14,8 @@ export function HomePage() {
                 </div>
                 <div>
                     <Presentation />
-                    <NoTransitionExample />
-                    {/* *<Areas /> */}
+                    {/* <NoTransitionExample /> */}
+                    *<Areas />
                 </div>
             </main>
         </>

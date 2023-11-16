@@ -3,18 +3,18 @@ import styles from './Presentation.module.css'
 export function Presentation() {
     return (
         <>
-            <strong className="text-violet-700 text-3xl">
+            {/* <strong className="text-violet-700 text-3xl">
                 Connecting people through
                 <strong className="text-green-300 text-3xl">
                     &nbsp;education&nbsp;
                 </strong>
                 and technology
-            </strong>
+            </strong> */}
             <span className="text-white">
-                Meu nome é Nadiveth Elena Duno Escalona, sou Venezuelana, atualmente,
+                {/* Meu nome é Nadiveth Elena Duno Escalona, sou Venezuelana, atualmente,
                 moro em Salvador, Bahia.
                 <br />
-                <br />
+                <br /> */}
                 Formada em TI e tenho experiência no desenvolvimento de projetos
                 sociais.
             </span>

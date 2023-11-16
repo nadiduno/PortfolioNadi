@@ -42,7 +42,7 @@
 
 .cover {
   width: 10rem;
-  height: 10rem;
+  /* height: 20rem; */
   border-radius: 50%;
   margin-top: 1.5rem;
 }
