@@ -1,6 +1,7 @@
 import { Areas } from '../components/Areas'
 import { Header } from '../components/Header'
 import { Sidebar } from '../components/Sidebar'
+import { NoTransitionExample, Presentation } from '../components/Presentation'
 import styles from './HomePage.module.css'
 
 export function HomePage() {
@@ -12,7 +13,9 @@ export function HomePage() {
                     <Sidebar />
                 </div>
                 <div>
-                    <Areas />
+                    <Presentation />
+                    <NoTransitionExample />
+                    {/* *<Areas /> */}
                 </div>
             </main>
         </>
