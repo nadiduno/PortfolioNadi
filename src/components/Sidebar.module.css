@@ -14,10 +14,6 @@
 }
 
 .hand {
-  /* position: relative; */
-  /* top: 1.5rem; */
-  /* left: -1.5rem; */
-  /* padding-right: 0.25rem; */
   transition: all ease-in-out 0.3s;
   transform: rotate(-2deg) translateX(-2%) translateY(-2%);
 }
@@ -66,9 +62,9 @@
 }
 
 .socialnetworks {
-  width: 6rem;
+  width: 5rem;
   height: 4rem;
-  padding: 0.5rem 1rem;
+  padding: .5rem;
   margin: 1rem;
   font-weight: bold;
   background: var(--violet-500);
