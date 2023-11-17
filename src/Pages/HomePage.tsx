@@ -8,7 +8,7 @@ import { DataScience } from '../components/DataScience'
 export function HomePage() {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <main className={styles.container}>
                 <div>
                     <Sidebar />

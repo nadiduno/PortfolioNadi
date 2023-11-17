@@ -6,10 +6,10 @@
     /* align-items: center; */
     /* justify-content: space-between; */
     /* justify-items: center; */
-    background-image: (https://github.com/nadiduno/PortfolioNadi/blob/main/.github/Dados.png?raw=true);
+    /* background-image: (https://github.com/nadiduno/PortfolioNadi/blob/main/.github/Dados.png?raw=true); */
 }
 
-.textmain{
+.textmain {
     color: var(--green-700);
     font-weight: bold;
     font-size: 4rem;
@@ -61,6 +61,21 @@
 .wrap {
     display: flex;
     gap: 1rem;
+}
+
+.box1 {
+    display: flex;
+    height: 25rem;
+}
+
+.box2 {
+    display: flex;
+    height: 25rem;
+}
+
+.box3 {
+    display: grid;
+    grid-template-columns: 2;
 }
 
 @media ((min-width: 768px)) {

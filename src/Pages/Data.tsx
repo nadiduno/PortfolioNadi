@@ -53,17 +53,17 @@ const appsme: AppMeType[] = [
 export function Data() {
     return (
         <>
-            <Header />
-            <main className={styles.container}>
-                <div>
+            {/* <Header /> */}
+            {/* <main className={styles.container}> */}
+                {/* <div>
                     <Sidebar />
-                </div>
+                </div> */}
                 <main className={styles.wrapper}>
                     {appsme.map((appme) => {
                         return <ApplicationMe key={appme.id} appme={appme} />
                     })}
                 </main>
-            </main>
+            {/* </main> */}
         </>
     )
 }
