@@ -53,7 +53,7 @@ const appsme: AppMeType[] = [
         title: 'Shoppe',
         about: 'Dashboard de Vendas',
         urlApp: {
-            photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/App5.png',
+            photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/App5.png?raw=true',
             deploy: 'https://app.powerbi.com/view?r=eyJrIjoiOWViNzY0NTctNzhkMC00MzRlLWE1ZjEtMmNjN2IyZWY4ZWNhIiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
             github: 'https://github.com/nadiduno/dataPublic',
         },
@@ -66,7 +66,7 @@ const appsme: AppMeType[] = [
         title: 'Vila Móveis',
         about: 'Dashboard de Vendas',
         urlApp: {
-            photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/App6.png',
+            photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/App6.png?raw=true',
             deploy: 'https://app.powerbi.com/view?r=eyJrIjoiODE4YTEyOTAtZjY1YS00Njc0LWEyM2YtNzBhZTQxZjcxMDNkIiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
             github: 'https://github.com/nadiduno/dataPublic',
         },
