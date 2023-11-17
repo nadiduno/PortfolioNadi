@@ -8,28 +8,35 @@
   justify-items: center;
 }
 
+.titleside {
+  display: flex;
+  justify-content: center;
+}
+
 .hand {
-  position: relative;
-  top: 1.5rem;
-  left: -1.5rem;
-  padding-right: 0.25rem;
-  transition: all ease-in-out 0.2s;
-  transform: rotate(-1deg) translateX(-1%) translateY(-1%);
+  /* position: relative; */
+  /* top: 1.5rem; */
+  /* left: -1.5rem; */
+  /* padding-right: 0.25rem; */
+  transition: all ease-in-out 0.3s;
+  transform: rotate(-2deg) translateX(-2%) translateY(-2%);
 }
 
 .hand:hover {
-  transform: rotate(1deg) translateX(1%) translateY(1%);
+  transform: rotate(2deg) translateX(2%) translateY(2%);
 }
 
 
 .name1 {
   color: var(--violet-500);
+  padding: 0 1rem;
 }
 
 .name2 {
   color: var(--white);
-  padding: 1rem;
-  font-size: 1.5rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  margin-top: -1rem;
 }
 
 .name3 {
@@ -41,14 +48,26 @@
 }
 
 .cover {
-  width: 20rem;
-  /* height: 10rem; */
-  border-radius: 50%;
-  margin-top: 1.5rem;
+  width: 18rem;
+  margin-top: -3rem;
+}
+
+.logosocial {
+  width: 80%;
+  height: 80%;
+  opacity: 1;
+  margin-top: .5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logosocial:hover {
+  opacity: .6;
+  transform: scale(1.2);
 }
 
 .socialnetworks {
   width: 6rem;
+  height: 4rem;
   padding: 0.5rem 1rem;
   margin: 1rem;
   font-weight: bold;
@@ -62,7 +81,7 @@
   cursor: pointer;
   transition: background-color 0.1s;
   border: none;
-  border-top: 1.25px solid var(--violet-500);
+  /* border-top: 1.25px solid var(--white); */
 }
 
 .socialnetworks:first-child {

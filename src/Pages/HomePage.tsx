@@ -3,6 +3,7 @@ import { Header } from '../components/Header'
 import { Sidebar } from '../components/Sidebar'
 import { NoTransitionExample, Presentation } from '../components/Presentation'
 import styles from './HomePage.module.css'
+import { DataScience } from '../components/DataScience'
 
 export function HomePage() {
     return (
@@ -15,9 +16,13 @@ export function HomePage() {
                 <div>
                     <Presentation />
                     {/* <NoTransitionExample /> */}
-                    *<Areas />
                 </div>
             </main>
+            <div className={styles.area}>
+                {/* <Areas /> */}
+                <DataScience />
+            </div>
+
         </>
     )
 }
