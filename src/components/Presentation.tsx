@@ -10,6 +10,7 @@ import logopython from '../assets/logopython.svg'
 import logosql from '../assets/logosql.svg'
 import logosass from '../assets/logosass.svg'
 import logofigma from '../assets/logofigma.svg'
+import logogitbash from '../assets/logogitbash.svg'
 import logogithub from '../assets/logogithub.svg'
 import logojupyter from '../assets/logojupyter.svg'
 import logopowerbi from '../assets/logopowerbi.svg'
@@ -17,7 +18,7 @@ import logoreact from '../assets/logoreact.svg'
 
 
 
-let logos: string[] = [`${logopython}`, `${logosql}`, `${logomongodb}`, `${logojupyter}`, `${logopowerbi}`, `${logoreact}`, `${logotypescript}`, `${logostyled}`, `${logosass}`, `${logofigma}`, `${logogithub}`]
+let logos: string[] = [`${logopython}`, `${logosql}`, `${logomongodb}`, `${logojupyter}`, `${logopowerbi}`, `${logoreact}`, `${logotypescript}`, `${logostyled}`, `${logosass}`, `${logofigma}`, `${logogitbash}`, `${logogithub}`]
 
 
 
