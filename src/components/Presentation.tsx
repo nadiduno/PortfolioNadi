@@ -54,10 +54,12 @@ export function Presentation() {
             <p className={styles.text1}>Tech</p>
             <div className={styles.wrap}>
               {logos.map((logo, index) => (
+                
                 <img
                   key={index}
                   src={logo}
-                  alt={`Logo ${index}`}
+                  // alt={`Logo ${index}`}
+                  title={logo.replace(/^.*\/?logo/, '').split('.')[0]}
                   className={styles.logoteach}
                 />
               ))}

@@ -19,13 +19,7 @@
 }
 
 .logoteach {
-    width: .75rem;
-    /* height: 10%; */
-}
-
-.logoteach img {
-    /* width: 100%;
-    height: 100%; */
+    width: 1rem;
 }
 
 .wrap {
@@ -49,6 +43,5 @@
     }
     .logoteach {
         width: 2rem;
-        height: 2rem;
     }
 }
