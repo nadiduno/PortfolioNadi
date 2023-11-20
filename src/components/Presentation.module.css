@@ -1,82 +1,36 @@
 .layout {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-    
+    width: 80%;
+    /* margin: 0 auto; */
 }
 
 .boxmain {
     display: flex;
     justify-items: center;
     align-items: center;
-    padding: .5rem;
 }
 
-
-.textdynamic{
+.textdynamic {
     color: var(--violet-500);
-    font-size: 2rem;
-    margin-top: 3rem;
-  }
+    font-size: 1.5rem;
+}
 
 .text1 {
-    color: var(--violet-500);
-}
-
-.text2 {
     color: var(--green-700);
-    padding: 2rem 0; 
 }
-
 
 .logoteach {
-    width: 2rem;
-    height: 2rem;
+    width: .75rem;
+    /* height: 10%; */
 }
 
 .logoteach img {
-    width: 100%;
-    height: 100%;
-}
-
-.socialnetworks {
-    width: 99%;
-    padding: 0.5rem 1.5rem;
-    margin-top: 1rem;
-    font-weight: bold;
-    background: var(--violet-500);
-    color: var(--white);
-    text-decoration: transparent;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    border-radius: 4px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.1s;
-    border: none;
-    border-top: 1.25px solid var(--violet-500);
-}
-
-
-.socialnetworks a:hover {
-    transition: 0.1s;
-    border-top: 2rem solid var(--violet-500);
-}
-
-.link2 {
-    cursor: pointer;
-    transition: 0.1s;
-}
-
-.link2:hover {
-    transition: 0.1s;
-    color: rgba(0, 0, 0, 75);
+    /* width: 100%;
+    height: 100%; */
 }
 
 .wrap {
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 
@@ -86,4 +40,15 @@
         gap: 2rem;
     }
 
+    .textdynamic {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+    .text1 {
+        padding: 2rem 0;
+    }
+    .logoteach {
+        width: 2rem;
+        height: 2rem;
+    }
 }

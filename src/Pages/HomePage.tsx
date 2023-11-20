@@ -20,7 +20,7 @@ export function HomePage() {
             </main>
             <div className={styles.area}>
                 {/* <Areas /> */}
-                <DataScience />
+                {/* <DataScience /> */}
             </div>
 
         </>

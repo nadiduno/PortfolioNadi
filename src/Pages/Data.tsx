@@ -32,7 +32,7 @@ const appsme: AppMeType[] = [
         about: 'Dashboard de Satisfação',
         urlApp: {
             photo: 'https://github.com/nadiduno/PortfolioNadi/blob/main/src/assets/App3.png?raw=true',
-            deploy: '<iframe title="PesquisaBanco" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNTcyMTFmYzItMTExNS00MDMxLThkNDctOGE5N2JjNTQ4OGM0IiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9" frameborder="0" allowFullScreen="true"></iframe>',
+            deploy: 'https://app.powerbi.com/view?r=eyJrIjoiNTcyMTFmYzItMTExNS00MDMxLThkNDctOGE5N2JjNTQ4OGM0IiwidCI6IjE0YmU1ZTFkLTM2MGYtNDg0Ni1iNGIwLTJlNTkzNzc1NmQwZCJ9',
             github: 'https://github.com/nadiduno/dataPublic',
         },
         publishedAt: new Date('2023-05-16 8:00:00'),

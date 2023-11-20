@@ -50,7 +50,7 @@ export function Presentation() {
             <br />
             <br />
             <p>Apaixonada  {'<💜/>'} por criar soluciones usaveis e accesiveis.</p>
-            <p className={styles.text2}>Tech</p>
+            <p className={styles.text1}>Tech</p>
             <div className={styles.wrap}>
               {logos.map((logo, index) => (
                 <img
