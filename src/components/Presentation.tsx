@@ -3,22 +3,22 @@ import React, { useState, useEffect } from 'react';
 // import { AppMeType } from '../components/ApplicationMe'
 import styles from './Presentation.module.css'
 
-import logostyled from '../assets/logostyledcomponent.svg'
-import logotypescript from '../assets/logotypescript.svg'
-import logomongodb from '../assets/logomongodb.svg'
-import logopython from '../assets/logopython.svg'
-import logosql from '../assets/logosql.svg'
-import logosass from '../assets/logosass.svg'
-import logofigma from '../assets/logofigma.svg'
-import logogitbash from '../assets/logogitbash.svg'
-import logogithub from '../assets/logogithub.svg'
-import logojupyter from '../assets/logojupyter.svg'
-import logopowerbi from '../assets/logopowerbi.svg'
-import logoreact from '../assets/logoreact.svg'
+import logoStyled from '../assets/logoStyledComponent.svg'
+import logoTypeScript from '../assets/logoTypescript.svg'
+import logoMongoDB from '../assets/logoMongoDB.svg'
+import logoPython from '../assets/logoPython.svg'
+import logoSQL from '../assets/logoSQL.svg'
+import logoSass from '../assets/logoSass.svg'
+import logoFigma from '../assets/logoFigma.svg'
+import logoGitBash from '../assets/logoGitBash.svg'
+import logoGitHub from '../assets/logoGitHub.svg'
+import logoJupyter from '../assets/logoJupyter.svg'
+import logoPowerBI from '../assets/logoPowerBI.svg'
+import logoReact from '../assets/logoReact.svg'
 
 
 
-let logos: string[] = [`${logopython}`, `${logosql}`, `${logomongodb}`, `${logojupyter}`, `${logopowerbi}`, `${logoreact}`, `${logotypescript}`, `${logostyled}`, `${logosass}`, `${logofigma}`, `${logogitbash}`, `${logogithub}`]
+let logos: string[] = [`${logoPython}`, `${logoSQL}`, `${logoMongoDB}`, `${logoJupyter}`, `${logoPowerBI}`, `${logoReact}`, `${logoTypeScript}`, `${logoStyled}`, `${logoSass}`, `${logoFigma}`, `${logoGitBash}`, `${logoGitHub}`]
 
 
 
