@@ -58,7 +58,7 @@ export function Presentation() {
                 <img
                   key={index}
                   src={logo}
-                  // alt={`Logo ${index}`}
+                  alt={`Logo ${logo.replace(/^.*\/?logo/, '').split('.')[0]}`}
                   title={logo.replace(/^.*\/?logo/, '').split('.')[0]}
                   className={styles.logoteach}
                 />
