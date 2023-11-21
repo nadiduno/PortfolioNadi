@@ -4,6 +4,7 @@ import { Sidebar } from '../components/Sidebar'
 import { NoTransitionExample, Presentation } from '../components/Presentation'
 import styles from './HomePage.module.css'
 import { DataScience } from '../components/DataScience'
+import { DeveloperWeb } from '../components/DeveloperWeb'
 
 export function HomePage() {
     return (
@@ -22,6 +23,7 @@ export function HomePage() {
                 {/* <Areas /> */}
                 <h2>Meus trabalhos</h2>
                 <DataScience />
+                <DeveloperWeb />
             </div>
 
         </>

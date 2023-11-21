@@ -11,7 +11,9 @@ export function DataScience() {
         Exploro, trato e depuro dados, para extrair insights que possam ajudar na tomada de decisões.
       </p>
       <hr />
-      <DataProject />
+      <div className={styles.wrap}>
+        <DataProject />
+      </div>
       </div>
 
   )
