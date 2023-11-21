@@ -84,7 +84,6 @@
 }
 
 .textButtom:hover {
-  opacity: .6;
   transform: scale(1.2);
 }
 
