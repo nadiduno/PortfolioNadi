@@ -1,43 +1,29 @@
-import { NavLink } from 'react-router-dom'
-import { AppMeType } from './ApplicationMe'
-
-import logostyled from '../assets/logostyledcomponent.svg'
-import logotypescript from '../assets/logotypescript.svg'
-import logomongodb from '../assets/logomongodb.svg'
-import logopython from '../assets/logopython.svg'
-import logosql from '../assets/logosql.svg'
-import logosass from '../assets/logosass.svg'
-import logofigma from '../assets/logofigma.svg'
-import logogithub from '../assets/logogithub.svg'
-import logojupyter from '../assets/logojupyter.svg'
-import logopowerbi from '../assets/logopowerbi.svg'
-import logoreact from '../assets/logoreact.svg'
-
+// import { NavLink } from 'react-router-dom'
 import styles from './DataScience.module.css'
-import { Data } from '../Pages/Data'
-
-let logos: string[][] = [
-  [`${logopython}`, `${logosql}`, `${logomongodb}`, `${logojupyter}`, `${logopowerbi}`],
-  [`${logoreact}`, `${logotypescript}`, `${logostyled}`, `${logosass}`, `${logofigma}`, `${logogithub}`,]
-]
+import { DataProject } from './DataProject'
 
 
 export function DataScience() {
   return (
     <div className={styles.layout}>
-      <p className={styles.textmain}>
-        Dados
-      </p>
+      <p className={styles.textmain}>Em dados</p>
       <p>
-        Análise e depuração de dados, para extrair insights que podem ajudar na tomada de decisões.
+        Exploro, trato e depuro dados, para extrair insights que possam ajudar na tomada de decisões.
       </p>
       <hr />
-      {/* <nav>
+      <DataProject />
+      </div>
+
+  )
+}
+
+// Ideias a fazer
+
+{/* <nav>
         <NavLink to='' title='' className={styles.button1}>
           Ver trabalhos na área de dados
         </NavLink>
       </nav> */}
-
       {/* IMAGENES QUADRADAS  */}
       {/* <div className={styles.box1}>
         <img
@@ -76,9 +62,5 @@ export function DataScience() {
         </div>
       </div>
        */}
-       <Data />
-    </div>
 
-  )
-}
 

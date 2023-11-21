@@ -55,17 +55,17 @@ export function ApplicationMe({ appme }: AppProps) {
               href={appme.urlApp.deploy}
               target="_blank"
               rel="noreferrer"
-              className={styles.socialnetworks}
+              className={styles.buttonviolet}
             >
-              Ver Aplicação
+              <span className={styles.textButtom}>Ver Aplicação</span>
             </a>
             <a
               href={appme.urlApp.github}
               target="_blank"
               rel="noreferrer"
-              className={styles.socialnetworks}
+              className={styles.buttonviolet}
             >
-              Ver Código
+              <span className={styles.textButtom}>Ver Código</span>
             </a>
           </div>
         </div>

@@ -43,7 +43,7 @@ export function Presentation() {
         <div className={styles.boxmain}>
           <div className={styles.box1}>
 
-            <p className={styles.textdynamic}>{texts[textIndex]}</p>
+            <h1 className={styles.textdynamic}>{texts[textIndex]}</h1>
 
             <span>Conectando </span>
             <span className={styles.text2}>pessoas </span>

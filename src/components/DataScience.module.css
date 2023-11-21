@@ -1,20 +1,13 @@
 .layout {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    padding: 0 1.5rem;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    /* justify-items: center; */
-    /* background-image: (https://github.com/nadiduno/PortfolioNadi/blob/main/.github/Dados.png?raw=true); */
 }
 
 .textmain {
     color: var(--green-700);
-    font-weight: bold;
-    font-size: 4rem;
+    font-size: 1.5rem;
 }
-
+/* 
 .logoteach {
     width: 2rem;
     height: 2rem;
@@ -76,12 +69,15 @@
 .box3 {
     display: grid;
     grid-template-columns: 2;
-}
+} */
 
 @media ((min-width: 768px)) {
     .wrapper {
         display: flex;
         gap: 2rem;
     }
+    .textmain {
+        font-size: 3rem;
+    }    
 
 }

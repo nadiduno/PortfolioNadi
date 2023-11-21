@@ -1,17 +1,11 @@
 .layout {
   width: 100%;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  justify-items: center;
 }
 
 .boxmain {
   width: 20rem;
   padding: .5rem;
-  margin-left: -2rem;
+  /* margin-left: -2rem; */
 }
 
 .box1 {
@@ -20,7 +14,7 @@
   overflow: hidden;
   border-radius: 8px 8px 0 0;
   background-color: var(--white);
-  border: 1px solid var(--gray-300);
+  border: 1px solid var(--violet-500);
   border-bottom: transparent;
   position: relative;
 }
@@ -33,7 +27,7 @@
   border-radius: 0 0 8px 8px;
   background-color: var(--white);
   color: var(--gray-600);
-  border: 1px solid var(--gray-300);
+  border: 1px solid var(--violet-500);
   border-top: transparent;
 }
 
@@ -59,7 +53,7 @@
   object-fit: cover;
 }
 
-.socialnetworks {
+.buttonviolet {
   width: 160px;
   padding: 0.5rem 0.5rem;
   margin-top: 1rem;
@@ -84,9 +78,14 @@
 }
 
 
-.socialnetworks a:hover {
-  transition: 0.1s;
-  border-top: 2rem solid var(--violet-500);
+.buttonviolet:hover{
+  opacity: .9;
+  transition: transform 0.3s ease-in-out;
+}
+
+.textButtom:hover {
+  opacity: .6;
+  transform: scale(1.2);
 }
 
 
