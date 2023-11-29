@@ -5,6 +5,7 @@ import { NoTransitionExample, Presentation } from '../components/Presentation'
 import styles from './HomePage.module.css'
 import { DataScience } from '../components/DataScience'
 import { DeveloperWeb } from '../components/DeveloperWeb'
+import { TeacherTI } from '../components/TeacherTI'
 
 export function HomePage() {
     return (
@@ -24,6 +25,7 @@ export function HomePage() {
                 <h2>Meus trabalhos</h2>
                 <DataScience />
                 <DeveloperWeb />
+                <TeacherTI />
             </div>
 
         </>
