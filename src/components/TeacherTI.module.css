@@ -9,8 +9,6 @@
 }
 
 .wrap {
-    /* display: grid; */
-    /* justify-items: center; */
     display: flex;
     position: relative;
     aspect-ratio: 16/9;
